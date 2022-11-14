@@ -1,0 +1,270 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+    .cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2em 0;
+    margin-left: 3.5em;
+    flex-wrap: nowrap;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.titulo__container {
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.menu-lista {
+    display: flex; 
+    margin: 0 3em;
+}
+
+.link__opções {
+    padding-left: 2em;
+    color: var(--text-color)
+}
+
+.link__botão {
+    color: var(--text-color)
+
+}
+
+.menu-botão {
+    display: flex;
+    margin-left: 20em;
+}
+
+.item__botão {
+    margin: 0 2.5em;
+}
+
+.botão {
+    background-color: var(--main-color);
+    color: aliceblue;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    
+}
+/* Final do header */
+/* Começo da primeira section */
+.introdução {
+    display: grid;
+    gap: 2em;
+    justify-items: center;
+    font-family: 'Inter', sans-serif; 
+}
+
+.sub-titulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+    justify-content: center;
+    padding: 6em 0 1em 0;
+}
+
+.titulo__introdução {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.paragrafo__introdução {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+    padding: 0 14em;
+}
+/* final da primeira section */
+/* inicio da segunda section */
+
+.metricas-container {
+    display: flex;
+    align-items: center;
+    padding: 5em 2em;
+    margin-left: 4em;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteúdo-metricas {
+    margin-right: 2.5em;
+}
+
+.numero-indicador {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+.titulo-indicador {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.texto-indicador {
+     font-weight: 400;
+     font-size: 16px;
+     color: var(--text-color);
+     margin-right: 2em;
+
+}
+/* fim da segunda section */
+/* Inicio da terceira section */
+
+.conteúdo__banner {
+    display: grid;
+    gap: 2em;
+    justify-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteúdo-introdução {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--main-color);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.5em 1em;
+}
+
+.conteúdo-titulo {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.conteúdo-texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+/* fim da terceira section */
+/* inicio da quarta section*/
+
+.apresentação-vagas {
+    display: grid;
+    margin: 40px 230px;    
+    grid-gap: 2em;
+}
+
+.nome-vagas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vaga {
+    font-family: 'Inter', sans-serif;
+    border-radius: 16px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #eaecf0e8;
+    padding: 1em 1em;
+}
+
+.informacoes {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 45px;
+}
+/* fim da quarta section */
+/* inicio da quinta section */
+.depoimento__colaboradora {
+    display: grid;
+    justify-content: center;
+    padding: 2em 2em;
+    font-family: 'Inter', sans-serif;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 0 4em;
+
+}
+
+.titulo-depoimento {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--main-color);
+    justify-self: center;
+    margin: 2.5em 0 ;
+}
+
+.texto-depoimento {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+}
+
+.imagem-colaboradora {
+    justify-self: center;
+    margin: 2em 0 ;
+}
+
+.nome-colaboradora {
+    justify-self: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.função-colaboradora {
+    justify-self: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 1em 0;
+}
+/* fim da quinta section */
+/* inicio do footer */
+.rodapé__geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background: #F9FAFB;
+    margin-top: 4em;
+}
+
+.rodapé__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 2em;
+}
+
+.rodapé__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-top: 1em;
+}
+
+.rodapé__email {
+    border: revert;
+    border-width: thin;
+    border-radius: 12px;
+    border-color: black;
+    padding: 12px 125px 12px 12px;
+    background: transparent;
+    margin: 1em 10em 1em 0;    
+}
+.botão__final {
+    background-color: var(--main-color);
+    color: aliceblue;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+}
+
+.rodapé-botão {
+    margin: -49px -190px 4em 12em;
+}
+
+.rodapé__copyright {
+    font-weight: 400;
+    font-size: 16px;
+    color: #98A2B3;
+    margin-bottom: 4em;
+}
